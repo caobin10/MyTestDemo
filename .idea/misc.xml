@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidSource/example/MyDemo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.183" />
+        <entry key="..\:/AndroidSource/example/MyDemo/app/src/main/res/layout/activity_base.xml" value="0.275" />
         <entry key="..\:/AndroidSource/example/MyDemo/app/src/main/res/layout/activity_main.xml" value="0.2966485507246377" />
+        <entry key="..\:/AndroidSource/example/MyDemo/app/src/main/res/layout/activity_view_model.xml" value="0.234375" />
+        <entry key="..\:/AndroidSource/example/MyDemo/app/src/main/res/layout/item_list.xml" value="0.275" />
+        <entry key="..\:/AndroidSource/example/MyDemo/app/src/main/res/layout/recycler_view_item.xml" value="0.27708333333333335" />
         <entry key="..\:/AndroidSource/example/MyDemo/library/src/main/res/drawable/bg_operate_window.xml" value="0.12" />
         <entry key="..\:/AndroidSource/example/MyDemo/library/src/main/res/drawable/triangle_down.xml" value="0.1875" />
         <entry key="..\:/AndroidSource/example/MyDemo/library/src/main/res/layout/layout_operate_windows.xml" value="0.2513586956521739" />
