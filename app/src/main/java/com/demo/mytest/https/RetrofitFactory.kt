@@ -16,7 +16,6 @@ class RetrofitFactory private constructor() {
             .setLenient()
             .serializeNulls()
             .create()
-
         retrofit = Retrofit.Builder()
             .baseUrl("https://www.wanandroid.com/")
             .client(initOkhttpClient())
@@ -43,15 +42,12 @@ class RetrofitFactory private constructor() {
     * 日志拦截器
     * */
     private fun initLogInterceptor(): HttpLoggingInterceptor {
-
         val interceptor = HttpLoggingInterceptor(object : HttpLoggingInterceptor.Logger {
             override fun log(message: String) {
                 Log.i("Retrofit", message)
             }
         })
-
         interceptor.level = HttpLoggingInterceptor.Level.BODY
-
         return interceptor
     }
 
@@ -59,7 +55,6 @@ class RetrofitFactory private constructor() {
     * 具体服务实例化
     * */
     fun <T> getService(service: Class<T>): T {
-
         return retrofit.create(service)
     }
 }

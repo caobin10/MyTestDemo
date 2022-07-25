@@ -13,7 +13,6 @@ import retrofit2.http.Path
  */
 
 interface ApiService {
-
     /**
      * 使用协程进行网络请求
      */
@@ -22,5 +21,4 @@ interface ApiService {
 
     @GET("article/list/{page}/json")
     suspend fun getArticleList(@Path("page") page: Int = 0): Result<PageEntity<Article>>
-
 }

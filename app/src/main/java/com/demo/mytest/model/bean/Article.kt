@@ -9,7 +9,10 @@ import com.google.gson.annotations.SerializedName
  * @Describe 文章列表
  */
 class Article(
-    @SerializedName("desc") val desc: String,
-    @SerializedName("id") val id: Int,
-    @SerializedName("title") val title: String,
+    @SerializedName("desc")
+    val desc: String,
+    @SerializedName("id")
+    val id: Int,
+    @SerializedName("title")
+    val title: String,
 )

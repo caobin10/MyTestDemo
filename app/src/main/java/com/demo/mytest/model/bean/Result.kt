@@ -5,4 +5,8 @@ package com.demo.mytest.model.bean
  * @CreateTime 2020/4/5 19:29
  * @Describe
  */
-data class Result<T>(val code: Int, val errorMsg: String?, val data: T)
+data class Result<T>(
+    val code: Int,
+    val errorMsg: String?,
+    val data: T
+)
